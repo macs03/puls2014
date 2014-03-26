@@ -95,4 +95,73 @@ nav ul #publicar_nav a
 	padding: 0.6em 0.8em;
 	text-shadow:rgba(0,0,0,0.5) 2px 2px 5px;
 }
+#contenido
+{
+	margin: 1em;
+}
+
+#contenido .item {
+	background: white;
+	border-bottom: 3px solid #22BCE0;
+	min-height: 128px;
+	position: relative;
+	margin-bottom: 3em;
+}
+#contenido .item .autor_item{
+	color: #AAA;
+}
+#contenido .item .datos_item{
+	margin: 1em 1em 0 0;
+}
+#contenido .item .datos_item .fecha_item
+{
+	color: #AAA;
+	float: right;
+}
+#contenido .item .datos_item .tag_item
+{
+	background: #F4502A;
+	border-radius: 0.5em;
+	color: white;
+	display: inline-block;
+	padding: 0.2em 0.5em;
+	text-decoration: none;
+}
+#contenido .item .imagen_item
+{
+	float: left;
+	margin-right: 1em;
+}
+#contenido .item .imagen_item img
+{
+	width: 96px;
+}
+#contenido .item .titulo_item
+{
+	font-size: 1.2em;
+	font-style: italic;
+	margin-bottom: 0;	
+	padding: 1em 1em 0 0;
+}
+#contenido .item .titulo_item a{
+	color: #444;
+	text-decoration: none;
+}
+#contenido .item .votacion{
+	background: white;
+	border-radius: 0 0 0.5em 0.5em ;
+	left: 3%;
+	margin-top: 3px;
+	padding: 0.5em 1em;
+	position: absolute;
+	right: 3%;
+	top: 100%;
+}
+#contenido .item .votacion .comentarios_item,
+#contenido .item .votacion .guardar_item
+{
+	float: right;
+}
+
+
 
